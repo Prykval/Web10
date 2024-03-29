@@ -1,6 +1,6 @@
 from pymongo import MongoClient
 
-def grt_mongodb():
+def get_mongodb():
     client = MongoClient("mongodb://localhost")
 
     db = client.web_hm10
